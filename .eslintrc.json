@@ -3,6 +3,18 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "jsx-quotes": ["error", "prefer-single"]
+    "react/prop-types": "off",
+    "jsx-quotes": ["error", "prefer-double"]
+  },
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   }
 }
