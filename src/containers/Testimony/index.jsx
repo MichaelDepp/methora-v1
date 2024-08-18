@@ -4,9 +4,9 @@ import { useInView } from 'react-intersection-observer';
 import Slider from 'react-slick';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 
-import Container from 'components/Container';
-import HeaderTitle from 'components/HeaderTitle';
-import TestimonyCard from 'components/TestimonyCard';
+import Container from '@components/Container';
+import HeaderTitle from '@components/HeaderTitle';
+import TestimonyCard from '@components/TestimonyCard';
 import constants from '../../constants';
 
 const Testimony = () => {

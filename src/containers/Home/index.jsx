@@ -1,11 +1,11 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
 
-import Button from 'components/Button';
-import Container from 'components/Container';
-import ContentWrapper from 'components/ContentWrapper';
-import ImageBlob from 'components/ImageBlob';
-import SocialLinks from 'components/SocialLinks';
+import Button from '@components/Button';
+import Container from '@components/Container';
+import ContentWrapper from '@components/ContentWrapper';
+import ImageBlob from '@components/ImageBlob';
+import SocialLinks from '@components/SocialLinks';
 
 const Home = () => {
   const textColorConfig = 'text-theme-dark dark:text-theme-lightBg';

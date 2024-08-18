@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-import ImageBlob from 'components/ImageBlob';
-import Container from 'components/Container';
-import HeaderTitle from 'components/HeaderTitle';
-import ProgressBar from 'components/ProgressBar';
-import ContentWrapper from 'components/ContentWrapper';
+import ImageBlob from '@components/ImageBlob';
+import Container from '@components/Container';
+import HeaderTitle from '@components/HeaderTitle';
+import ProgressBar from '@components/ProgressBar';
+import ContentWrapper from '@components/ContentWrapper';
 
 const Skills = () => {
   const { ref, inView } = useInView({

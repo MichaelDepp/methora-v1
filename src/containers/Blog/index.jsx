@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-import BlogCard from 'components/BlogCard';
-import BlogPage from 'components/BlogPage';
-import Container from 'components/Container';
-import HeaderTitle from 'components/HeaderTitle';
-import Modal from 'components/Modal';
+import BlogCard from '@components/BlogCard';
+import BlogPage from '@components//BlogPage';
+import Container from '@components//Container';
+import HeaderTitle from '@components//HeaderTitle';
+import Modal from '@components//Modal';
 
 const Blog = () => {
   const [isOpen, setIsOpen] = useState(false);

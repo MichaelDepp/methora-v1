@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-import ContactForm from 'components/ContactForm';
-import Container from 'components/Container';
-import HeaderTitle from 'components/HeaderTitle';
-import ImageBlob from 'components/ImageBlob';
+import ContactForm from '@components/ContactForm';
+import Container from '@components/Container';
+import HeaderTitle from '@components/HeaderTitle';
+import ImageBlob from '@components/ImageBlob';
 
 const Contact = () => {
   const [width, setWidth] = useState(360);

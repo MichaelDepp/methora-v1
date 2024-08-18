@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-import Container from 'components/Container';
-import HeaderTitle from 'components/HeaderTitle';
-import PortfolioCard from 'components/PortfolioCard';
-import Chip from 'components/Chip';
+import Container from '@components/Container';
+import HeaderTitle from '@components/HeaderTitle';
+import PortfolioCard from '@components/PortfolioCard';
+import Chip from '@components/Chip';
 
 const Portfolio = () => {
   const [activeChip, setActiveChip] = useState('All');
